@@ -1,0 +1,159 @@
+body {
+
+}
+
+/* Header styling */
+
+#header {
+	background: url('../img/header-bkg2.jpg');
+	opacity: 0.749;
+	background-position: center 20%;
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 0.833;
+	text-align: center;
+	font-size: 90px;
+}
+
+#header h1 {
+	font-size: 1.5em;
+	padding-top: 15%;
+}
+
+#header h3 {
+	font-size: 0.5em;
+}
+
+/* Navigation styling */
+
+#nav {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
+	width: 1770px;
+	height: 90px;
+	text-align: center;
+	display: inline;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Raleway";
+	padding-top: 44px;
+	border-bottom: 0px 0px 1px 0px solid grey;
+	border-shadow: 10;
+
+}
+
+#nav a {
+	display: inline-block;
+	color: rgb(44, 62, 80);
+	text-decoration: none;
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 50px;
+
+}
+.Rectangle_148 {
+  
+  left: 0px;
+  top: 900px;
+ 
+  z-index: 807;
+}
+
+
+/* About Section */
+
+#about {
+	padding-top: 10%;
+	border-bottom: 1px solid rgb(44, 62, 80);
+	font-family: "Raleway";
+	color: rgb(44, 62, 80);
+	text-align: center;
+}
+
+#about h3 {
+  font-size: 60px;
+  color: rgb(44, 62, 80);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.433;
+}
+
+#about p {
+padding: 0 20% 5% 20%;
+
+}
+
+#worker {
+	height: 150px;
+	width: 150px;
+
+}
+/* Resume styling */
+
+.resume-image {
+	width: 100%;
+}
+/* Portfolio section */
+
+#portfolio {
+	text-align: center;
+	border-bottom: 1px solid rgb(44, 62, 80);
+	font-family: "Raleway";
+	color: rgb(44, 62, 80);
+}
+
+#portfolio h3 {
+  font-size: 60px;
+  font-family: "Raleway";
+  color: rgb(44, 62, 80);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.433;
+}
+
+#portfolio img {
+	height: 300px;
+    width:40%;
+    margin: 0 auto;
+}
+#portfolio p {
+	padding: 0 200px;
+}
+
+.project-image {
+	height: 300px;
+    width: 60%;
+    margin: 20px 400px;
+}
+
+.github-repo {
+	display: block;
+	padding-bottom: 5%;
+}
+
+/* Contact section styling */
+
+#contact h3 {
+	text-align: center;
+	font-size: 60px;
+	font-family: "Raleway";
+	color: rgb(44, 62, 80);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.433;
+}
+
+.contact-icon {
+	padding: 10% 0;
+	margin-left: 15%;
+}
+
+
+
