@@ -29,6 +29,9 @@ body {
 }
 
 /* Navigation styling */
+nav {
+	margin-left: 32%;
+}
 
 #nav {
 	background-color: rgb(255, 255, 255);
