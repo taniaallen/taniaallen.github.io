@@ -1,19 +1,23 @@
 <html>
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/a993b3632f.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/app.js"></script>
 	<title>Tania Allen</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div id="header">
 		<h1>Tania Allen</h1>
-		<a href=""></a>
+		<!-- <a href=""></a> -->
 		<h3>Fullstack Web Developer</h3>
-		<div class="social-icons">
-			<a href="https://github.com/taniaallen"><img src="img/git.png"></a>
-			<a href="https://www.linkedin.com/in/tania-a-allen" id="in-icon"><img src="img/in2.png"></a>
-			<a href="https://twitter.com/charmed8383"><img src="img/t.png"></a>
+		<div>
+			<a href="https://github.com/taniaallen"><img src="img/git.png"  class="social-icons" id="git-icon" alt="link to github profile"></a>
+			<a href="https://www.linkedin.com/in/tania-a-allen"><img src="img/in2.png" class="social-icons" id="in-icon" alt="link to LinkedIn profile"></a>
+			<a href="https://twitter.com/charmed8383"><img src="img/t.png" class="social-icons" id="twit-icon" alt="link to Twitter profile"></a>
 		</div>
+			<a href="#about" id="scroll"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
 	</div>
 	<div id="nav">
 		<nav>
@@ -27,7 +31,7 @@
 
 <div id="about">
 	<h3>About Me</h3>
-	
+
 	<p> I am a problem solving addict, fueled by my passion for learning and self improvement. I take all problems as a personal challenge and conquer them swiftly and effectively. I lead with respect and appreciation for my coworkers allowing me to interact with them in an approachable and welcoming way.
 	</p>
 	<p>After getting a taste of the development process at a previous job, I enrolled in General Assembly's first online Web Development Immersive program to start my journey as a Web Developer. A surprising outcome to starting this program is that I discovered the core reason why I was drawn to the profession of Web Development: I loved to solve problems and build something useful.
@@ -42,16 +46,16 @@
 <div id="portfolio">
 	<h3>Projects</h3>
 
-	<a href="https://tumtum-tracker.herokuapp.com/"><img src="img/tumtum.png"></a>
+	<a href="https://tumtum-tracker.herokuapp.com/" ><img src="img/tumtum.png" alt="link to TumTum Tracker project"></a>
 	<p>The TumTum tracker was inspired by the outcomes tracker that students currently use while enrolled in the General Assembly Web Development Immersive Program. This was a collaborative MEAN stack project with another member of my class. The LinkedIn API and Github Jobs API was utilized to streamline the functionality of this app.</p>
 	<a href="https://github.com/karlmorand/tumtum-tracker" class="github-repo">Github Repo</a>
 
-	<a href="https://fullstack-force-wiki.herokuapp.com/"><img src="img/fullstack-force.png"></a>
+	<a href="https://fullstack-force-wiki.herokuapp.com/"><img src="img/fullstack-force.png" class="project-image" alt="link to fullstack force project"></a>
 	<p>After having several years experience using a company wiki, I jumped at the opportunity to build my own when the choice was presented to me. One of the flaws to the company wiki I used in the past was how primitive it looked. I wanted to build a wiki that maintained a simple platform layout but actually looked professional and beautiful. A wiki that I would like to use!
 This project was primarily built with Node, Express and MongoDB and really exercised what I learned in class and tested my understanding of using bcrypt and mongoose schemas to store the information appropriately. One area of this project I would like to improve upon is the text input box being used. I am going to implement the "Marked" node package to give the user some formatting capabilities and I also want to setup a system to vote and approve articles that are posted.</p>
 	<a href="https://github.com/taniaallen/CompanyWiki" class="github-repo">Github Repo</a><br><br>
 
-	<a href="https://makeupalley-app.herokuapp.com/"><img src="img/makeupalley.png"></a>
+	<a href="https://makeupalley-app.herokuapp.com/"><img src="img/makeupalley.png" class="project-image" alt="link to makeupalley project"></a>
 	<p>MakeupAlley is one of the oldest makeup review sites on the internet! As an avid lurker on this page, I was inspired to make my rendition of the site. My site is built with Ruby on Rails and utilizes Bootstrap-sass to style. Devise was used for user creation and management, and raty was used to provide a visual rating system.</p>
 
 	<a href="https://github.com/taniaallen/makeupalley-appl/blob/master/makeupalleyrevamp_app/README.md" class="github-repo">Github Repo</a>
@@ -60,8 +64,8 @@ This project was primarily built with Node, Express and MongoDB and really exerc
 
 <div id="contact">
 	<h3>Contact Me</h3>
-	<img src="img/phone.png" class="contact-icon">
-	<img src="img/email2.png" class="contact-icon"/>
+	<img src="img/phone.png" class="contact-icons">
+	<img src="img/email2.png" class="contact-icons"/>
 </div>
 
 

@@ -3,14 +3,44 @@ body {
 }
 
 /* Header styling */
+.social-icons {
+	height: 5%;
+	color: #ffffff;
+}
+
+.social-icons:hover {
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.fa-angle-double-down {
+	padding-top: 5%;
+	text-decoration: none;
+	color: #ffffff;
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
 
 #header {
 	background: url('../img/header-bkg2.jpg');
-	opacity: 0.749;
 	background-position: center 20%;
 	background-size: cover;
 	width: 100%;
-	height: 900px;
+	height: 100vh;
 	font-family: "Raleway";
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
@@ -33,6 +63,18 @@ nav {
 	margin-left: 35%;
 }
 
+nav ul li {
+	float: left;
+	list-style-type: none;
+	margin-right: 50px;
+}
+
+.Rectangle_148 {
+  left: 0px;
+  top: 900px;
+  z-index: 807;
+}
+
 #nav {
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
@@ -53,20 +95,7 @@ nav {
 	display: inline-block;
 	color: rgb(44, 62, 80);
 	text-decoration: none;
-}
-
-nav ul li {
-	float: left;
-	list-style-type: none;
-	margin-right: 50px;
-
-}
-.Rectangle_148 {
-  
-  left: 0px;
-  top: 900px;
- 
-  z-index: 807;
+	font-size: 1.5em;
 }
 
 
@@ -123,17 +152,21 @@ padding: 0 20% 5% 20%;
 
 #portfolio img {
 	height: 300px;
-    width:40%;
-    margin: 0 auto;
+  width:40%;
+  margin: 0 auto;
 }
+#portfolio a:hover {
+	box-shadow: inset 0 0 0 25px #ffffff;
+}
+
 #portfolio p {
 	padding: 0 200px;
 }
 
 .project-image {
 	height: 300px;
-    width: 60%;
-    margin: 20px 400px;
+  width: 60%;
+  margin: 20px 400px;
 }
 
 .github-repo {
@@ -153,10 +186,7 @@ padding: 0 20% 5% 20%;
 	line-height: 0.433;
 }
 
-.contact-icon {
+.contact-icons {
 	padding: 10% 0;
 	margin-left: 15%;
 }
-
-
-
