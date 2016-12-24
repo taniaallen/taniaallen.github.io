@@ -36,7 +36,7 @@
 	background-position: center 20%;
 	background-size: cover;
 	width: 100%;
-	height: 100vh;
+	height: 40%;
 	font-family: "Raleway";
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
@@ -56,13 +56,13 @@
 
 /* Navigation styling */
 nav {
-	margin-left: 22%;
+	margin-left: 15%;
 }
 
 nav ul li {
 	float: left;
 	list-style-type: none;
-	margin-right: 15%;
+	margin-right: 10%;
 }
 
 .Rectangle_148 {
@@ -184,4 +184,22 @@ text-align: left;
 .contact-icons {
 	padding: 10% 0;
 	margin-left: 15%;
+}
+
+@media (min-width: 700px) {
+	#header {
+			height: 100vh;
+	}
+
+	/* Navigation styling */
+	nav {
+		margin-left: 15%;
+	}
+
+	nav ul li {
+		float: left;
+		list-style-type: none;
+		margin-right: 15%;
+	}
+
 }
