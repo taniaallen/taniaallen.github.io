@@ -7,9 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+
+	<nav id="fixedbar">
+		<ul id="fixednav">
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 	<div id="header">
 		<h1>Tania Allen</h1>
-		<!-- <a href=""></a> -->
 		<h3>Fullstack Web Developer</h3>
 		<div>
 			<a href="https://github.com/taniaallen"><img src="assets/img/git.png"  class="social-icons" id="git-icon" alt="link to github profile"></a>
@@ -19,12 +26,11 @@
 			<a href="#about" id="scroll"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
 	</div>
 	<div id="nav">
-		<nav>
+		<nav id="navigation">
 			<ul>
 				<li><a href="#about">About</a></li>
 				<li><a href="#portfolio">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a href="tania_a_allen.pdf" download>Resume</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -38,40 +44,53 @@
 	As we dived into languages like Angular, Node and MongoDB, I also strengthened my communication skills, learning to ask better questions and approach problems from different angles.
 	The greatest skill I have learned from this program is the ability to utilize all of the resources available. These skills have empowered me to take action confidently and strategically when I am presented with a new challenge.</p>
 
-	<a href="tania_a_allen.pdf" download><h4>Resume</h4></a>
-</div>
-
-<div id="resume">
-	<img src="assets/img/resume2.png" class="resume-image">
 </div>
 
 <div id="portfolio">
 	<h3>Projects</h3>
 
-	<a href="https://tumtum-tracker.herokuapp.com/" ><img src="assets/img/tumtum.png" alt="link to TumTum Tracker project"></a>
+	<a href="https://tumtum-tracker.herokuapp.com/"><img src="assets/img/tumtum.png" alt="link to TumTum Tracker project"></a>
 	<p>The TumTum tracker was inspired by the outcomes tracker that students currently use while enrolled in the General Assembly Web Development Immersive Program. This was a collaborative MEAN stack project with another member of my class. The LinkedIn API and Github Jobs API was utilized to streamline the functionality of this app.</p>
-	<a href="https://github.com/karlmorand/tumtum-tracker" class="github-repo">Github Repo</a>
+	<a href="https://github.com/karlmorand/tumtum-tracker" class="github-repo"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+	<a href="https://tumtum-tracker.herokuapp.com/"><i class="fa fa-external-link-square" aria-hidden="true"></i></a><br><br>
+
 
 	<a href="https://fullstack-force-wiki.herokuapp.com/"><img src="assets/img/fullstack-force.png" class="project-image" alt="link to fullstack force project"></a>
 	<p>After having several years experience using a company wiki, I jumped at the opportunity to build my own when the choice was presented to me. One of the flaws to the company wiki I used in the past was how primitive it looked. I wanted to build a wiki that maintained a simple platform layout but actually looked professional and beautiful. A wiki that I would like to use!
 This project was primarily built with Node, Express and MongoDB and really exercised what I learned in class and tested my understanding of using bcrypt and mongoose schemas to store the information appropriately. One area of this project I would like to improve upon is the text input box being used. I am going to implement the "Marked" node package to give the user some formatting capabilities and I also want to setup a system to vote and approve articles that are posted.</p>
-	<a href="https://github.com/taniaallen/CompanyWiki" class="github-repo">Github Repo</a><br><br>
+	<a href="https://github.com/taniaallen/CompanyWiki" class="github-repo"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+	<a href="https://fullstack-force-wiki.herokuapp.com/"><i class="fa fa-external-link-square" aria-hidden="true"></i></a><br><br>
 
 	<a href="https://makeupalley-app.herokuapp.com/"><img src="assets/img/makeupalley.png" class="project-image" alt="link to makeupalley project"></a>
 	<p>MakeupAlley is one of the oldest makeup review sites on the internet! As an avid lurker on this page, I was inspired to make my rendition of the site. My site is built with Ruby on Rails and utilizes Bootstrap-sass to style. Devise was used for user creation and management, and raty was used to provide a visual rating system.</p>
 
-	<a href="https://github.com/taniaallen/makeupalley-appl/blob/master/makeupalleyrevamp_app/README.md" class="github-repo">Github Repo</a>
+	<a href="https://github.com/taniaallen/makeupalley-appl/blob/master/makeupalleyrevamp_app/README.md" class="github-repo"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+	<a href="https://makeupalley-app.herokuapp.com/"><i class="fa fa-external-link-square" aria-hidden="true"></i></a>
 
 </div>
 
 <div id="contact">
 	<h3>Contact Me</h3>
+
+	<div class="contact-social">
+			<p>Feel free to email me or connect through my social media accounts listed:</p>
+			<a href="https://github.com/taniaallen"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/charmed8383"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/in/tania-a-allen"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+			<a href="tania_a_allen.pdf" download><i class="fa fa-download fa-2x" aria-hidden="true" target="_blank"></i></a>
+			<span class"fa-text">Resume:</span>
+			<span class"fa-text">
+				<a target="_self" href="tania_a_allen.pdf" download="tania_a_allen.pdf">PDF</a>
+			</span>
+	</div>
+
 	<img src="assets/img/phone.png" class="contact-icons">
-	<img src="assets/img/email2.png" class="contact-icons"/>
+	<a href="mailto:tania.a.allen@gmail.com"><img src="assets/img/email2.png" class="contact-icons"/></a>
+
 </div>
 
-
-<script type="text/javascript" src="assets/js/app.js"></script>
+<script src="assets/js/app.js" type="text/javascript"></script>
 </body>
 
 </html>
