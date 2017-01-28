@@ -58,7 +58,7 @@
 
 	/* Navigation styling */
 	#nav {
-		margin-left: 25%
+		margin-left: 21%
 	}
 
 	nav ul li {
@@ -168,10 +168,33 @@
 
 	}*/
 	/* Resume styling */
+
 	.resume-image {
 		width: 100%;
 	}
+
 	/* Portfolio section */
+
+	.project-image {
+		height: 300px;
+	  width: 60%;
+	  margin: 20px 400px;
+	}
+
+	.fa-github-alt,
+	.fa-external-link-square {
+		font-size: 2em;
+	}
+
+	.github-repo {
+		display: inline;
+		margin-right: 2%;
+	}
+
+	.github-repo,
+	.fa-external-link-square {
+		color: #1ABC9C;
+	}
 
 	#portfolio {
 		padding-top: 5%;
@@ -200,27 +223,17 @@
 
 	#portfolio p {
 		padding: 0 200px;
-	}
-
-	.project-image {
-		height: 300px;
-	  width: 60%;
-	  margin: 20px 400px;
-	}
-
-	.github-repo {
-		display: block;
 		padding-bottom: 5%;
 	}
 
 	/* Contact section styling */
-	#contact {
+	.contact {
 		padding-top: 5%;
 		border-top: 1px solid rgb(44, 62, 80);
+		text-align: center;
 	}
 
-	#contact h3 {
-		text-align: center;
+	.contact h3 {
 		font-size: 60px;
 		font-family: "Raleway";
 		color: rgb(44, 62, 80);
@@ -231,34 +244,30 @@
 
 	.contact-icons {
 		padding: 10% 0;
-		margin-left: 15%;
+		margin: 0 13%;
+		text-align: left;
 	}
-}
 
-/* Aside */
-aside {
-	position: fixed;
-	right: 0;
-	top: 40%;
-	padding: 1rem;
-	background-color: #515B5E;
-}
+	.fa-download {
+		font-size: 3.5em;
+	}
 
-aside a.fa {
-	display: block;
-	margin: .5rem 0;
-	text-align: center;
-	color: #FFFEFC;
-	text-decoration: none;
-}
+	.fa-text-resume {
+		font-family: "Raleway";
+		font-size: 1.5em;
+		font-weight: bold;
+		color: rgb(44, 62, 80);
+	}
 
-aside a:hover {
-	color: #F5971D;
-}
 
+	#contact-social {
+		text-align: left;
+	}
+
+}
 
 @media screen
-and (min-device-width: 1200px) {
+and (min-device-width: 1000px) {
 	#header {
 			height: 100vh;
 	}
@@ -266,7 +275,7 @@ and (min-device-width: 1200px) {
 	/* Navigation styling */
 
 	#fixednav, #nav {
-			margin-left: 25%;
+			margin-left: 23%;
 		}
 
 	nav ul li {
