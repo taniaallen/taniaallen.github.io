@@ -227,13 +227,13 @@
 	}
 
 	/* Contact section styling */
-	.contact {
+	#contact {
 		padding-top: 5%;
 		border-top: 1px solid rgb(44, 62, 80);
 		text-align: center;
 	}
 
-	.contact h3 {
+	#contact h3 {
 		font-size: 60px;
 		font-family: "Raleway";
 		color: rgb(44, 62, 80);
